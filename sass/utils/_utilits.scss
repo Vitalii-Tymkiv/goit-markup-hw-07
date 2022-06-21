@@ -19,6 +19,18 @@ ol {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  @media screen and (min-width: $Mobile) {
+    width: $Mobile;
+  }
+
+  @media screen and (min-width: $Tablet) {
+    width: $Tablet;
+  }
+
+  @media screen and (min-width: $Desktop) {
+    width: $Desktop;
+  }
 }
 
 .img {
